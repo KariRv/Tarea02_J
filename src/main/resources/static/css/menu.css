@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 feb 2022, 9:41:20
+    Author     : Walter Quiros Arias
+*/
+
+* {
+    
+    box-sizing: border-box;
+    
+}
+
+.body {
+   font-family: SF Pro display;
+   padding: 20px 20px 0;
+}
+
+.header{
+    background-color: #C3B6F0;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+
+.nav-link {
+   text-decoration: none;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    color: black;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 40px;
+    list-style: none;
+    color: black;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    width: max-content;
+}
+
+ 
+
+.nav-menu-item:hover {
+    background-color: #9AF2F5;
+    transition: 0.5s;
+}
+
+ 
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
